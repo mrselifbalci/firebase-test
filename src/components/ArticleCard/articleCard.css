@@ -1,0 +1,23 @@
+.article-card{
+    background-color: pink;
+    margin:10px;
+    height:fit-content;
+  }
+  .article-card img{
+    width:100%;
+    height:200px;
+    object-fit: cover;
+  }
+  .article-card-info{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding:0 2px;
+  }
+  .article-card-info a{
+      text-decoration: none;
+      color:black;
+      font-size:0.7rem;
+      cursor:pointer;
+      align-self:flex-end;
+  }
